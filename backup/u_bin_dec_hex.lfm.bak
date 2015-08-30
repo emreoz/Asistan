@@ -1,0 +1,210 @@
+object Form1: TForm1
+  Left = 247
+  Height = 280
+  Top = 243
+  Width = 432
+  Caption = 'Elektronik Yardımcı Yazılımları'
+  ClientHeight = 280
+  ClientWidth = 432
+  LCLVersion = '1.4.2.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 280
+    Top = 0
+    Width = 432
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 1
+    TabOrder = 0
+    object TabSheet6: TTabSheet
+      Caption = 'Ana Sayfa'
+    end
+    object TabSheet1: TTabSheet
+      Caption = 'Çevirim'
+      ClientHeight = 252
+      ClientWidth = 424
+      object Edit1: TEdit
+        Left = 8
+        Height = 23
+        Top = 80
+        Width = 144
+        OnKeyPress = Edit1KeyPress
+        TabOrder = 0
+      end
+      object Edit2: TEdit
+        Left = 8
+        Height = 23
+        Top = 136
+        Width = 144
+        OnKeyPress = Edit2KeyPress
+        TabOrder = 1
+      end
+      object Label1: TLabel
+        Left = 8
+        Height = 15
+        Top = 56
+        Width = 33
+        Caption = 'Binary'
+        ParentColor = False
+      end
+      object Label2: TLabel
+        Left = 8
+        Height = 15
+        Top = 112
+        Width = 43
+        Caption = 'Decimal'
+        ParentColor = False
+      end
+      object Label3: TLabel
+        Left = 8
+        Height = 15
+        Top = 168
+        Width = 68
+        Caption = 'Hexadecimal'
+        ParentColor = False
+      end
+      object Edit3: TEdit
+        Left = 8
+        Height = 23
+        Top = 192
+        Width = 144
+        CharCase = ecUppercase
+        OnKeyPress = Edit3KeyPress
+        TabOrder = 2
+      end
+      object Button1: TButton
+        Left = 8
+        Height = 25
+        Top = 16
+        Width = 24
+        Caption = '8'
+        OnClick = Button1Click
+        TabOrder = 3
+      end
+      object Button2: TButton
+        Left = 40
+        Height = 25
+        Top = 16
+        Width = 24
+        Caption = '10'
+        OnClick = Button1Click
+        TabOrder = 4
+      end
+      object Button3: TButton
+        Left = 72
+        Height = 25
+        Top = 16
+        Width = 24
+        Caption = '24'
+        OnClick = Button1Click
+        TabOrder = 5
+      end
+      object Edit4: TEdit
+        Left = 112
+        Height = 23
+        Top = 16
+        Width = 40
+        NumbersOnly = True
+        OnKeyPress = Edit4KeyPress
+        TabOrder = 6
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'ADC'
+      ClientHeight = 221
+      ClientWidth = 331
+      object LabeledEdit1: TLabeledEdit
+        Left = 8
+        Height = 23
+        Top = 32
+        Width = 80
+        EditLabel.AnchorSideLeft.Control = LabeledEdit1
+        EditLabel.AnchorSideRight.Control = LabeledEdit1
+        EditLabel.AnchorSideRight.Side = asrBottom
+        EditLabel.AnchorSideBottom.Control = LabeledEdit1
+        EditLabel.Left = 8
+        EditLabel.Height = 15
+        EditLabel.Top = 14
+        EditLabel.Width = 80
+        EditLabel.Caption = 'Referans Voltaj'
+        EditLabel.ParentColor = False
+        TabOrder = 0
+      end
+      object LabeledEdit2: TLabeledEdit
+        Left = 8
+        Height = 23
+        Top = 88
+        Width = 80
+        EditLabel.AnchorSideLeft.Control = LabeledEdit2
+        EditLabel.AnchorSideRight.Control = LabeledEdit2
+        EditLabel.AnchorSideRight.Side = asrBottom
+        EditLabel.AnchorSideBottom.Control = LabeledEdit2
+        EditLabel.Left = 8
+        EditLabel.Height = 15
+        EditLabel.Top = 70
+        EditLabel.Width = 80
+        EditLabel.Caption = 'Çözünürlük'
+        EditLabel.ParentColor = False
+        TabOrder = 1
+      end
+      object Label4: TLabel
+        Left = 96
+        Height = 15
+        Top = 96
+        Width = 14
+        Caption = 'Bit'
+        ParentColor = False
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Direnç Renk Kodları'
+      ClientHeight = 252
+      ClientWidth = 423
+      object Panel1: TPanel
+        Left = 48
+        Height = 91
+        Top = 64
+        Width = 188
+        ClientHeight = 91
+        ClientWidth = 188
+        Color = clActiveCaption
+        ParentColor = False
+        TabOrder = 0
+        Visible = False
+        object Button4: TButton
+          Left = 8
+          Height = 25
+          Top = 8
+          Width = 23
+          Color = clBlack
+          ParentBidiMode = False
+          ParentFont = False
+          ParentShowHint = False
+          TabOrder = 0
+        end
+        object Button5: TButton
+          Left = 36
+          Height = 25
+          Top = 8
+          Width = 23
+          Color = clRed
+          TabOrder = 1
+        end
+        object Button6: TButton
+          Left = 64
+          Height = 25
+          Top = 8
+          Width = 23
+          Color = clBlack
+          TabOrder = 2
+        end
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'Direnç Hesaplama'
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'TabSheet5'
+    end
+  end
+end

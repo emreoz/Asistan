@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="bin_dec_hex.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="22" Y="10"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="u_bin_dec_hex.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="213"/>
+        <CursorPos X="24" Y="222"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\win\sysutils.pp"/>
+        <TopLine Value="73"/>
+        <UsageCount Value="5"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="26"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\propertystorage.pas"/>
+        <UnitName Value="PropertyStorage"/>
+        <TopLine Value="5"/>
+        <CursorPos X="33" Y="18"/>
+        <UsageCount Value="8"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\packages\fcl-base\src\rttiutils.pp"/>
+        <TopLine Value="55"/>
+        <UsageCount Value="8"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\components\GLScene_LCL\Source\GLFileTGA.pas"/>
+        <TopLine Value="291"/>
+        <CursorPos X="2" Y="304"/>
+        <UsageCount Value="5"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\components\GLScene_LCL\Source\GLFileBMP.pas"/>
+        <TopLine Value="100"/>
+        <CursorPos X="23" Y="113"/>
+        <UsageCount Value="5"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="bin_dec_hex.lpr"/>
+        <Caret Line="9" Column="3" TopLine="2"/>
+      </Position1>
+      <Position2>
+        <Filename Value="bin_dec_hex.lpr"/>
+        <Caret Line="10" Column="3"/>
+      </Position2>
+      <Position3>
+        <Filename Value="u_bin_dec_hex.pas"/>
+        <Caret Line="207" Column="51" TopLine="202"/>
+      </Position3>
+      <Position4>
+        <Filename Value="u_bin_dec_hex.pas"/>
+        <Caret Line="222" Column="71" TopLine="214"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
